@@ -1,2 +1,2 @@
 # MART341-WebDesign
-Repository for my Intro to Web Design &amp; Development Homework
+Repository for my Introduction to Web Design &amp; Development Homework
