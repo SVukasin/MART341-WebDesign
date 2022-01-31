@@ -1,0 +1,8 @@
+What is a directory, and what is its relationship to files?
+  Basically a folder that lives within the repository that hold and organize groups of files. 
+
+How are VCS useful?
+  They act as a history for all changes that are made so the previous pages can be compared to current ones. 
+
+Do you have a favorite artistic medium? Why is it your favorite?
+  I wouldn't consider myself artistic, so that's a hard one for me! But I do like some very simple graphic design and content creation using things like Adobe Illustrator and Photoshop
