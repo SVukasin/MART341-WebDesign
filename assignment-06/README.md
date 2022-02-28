@@ -5,8 +5,6 @@
 
 [Screenshot of Index.html](/images!index.html.jpg)
 
-[Screenshot of Recipe Page](!/images.recipe.html.jpg)
-
-[Screenshot of Chef Page](!/images.chef.jpg)
+[Screenshot of Recipe Page](/images/!recipe.html.jpg)
 
 [Screenshot of Chef Page](!/images/chef.jpg)
