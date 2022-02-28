@@ -3,8 +3,8 @@
 
 [Screenshot of About.html](!/images.about.html.jpg)
 
-[Screenshot of Index.html](!/images.index.html.jpg)
+[Screenshot of Index.html](/images!index.html.jpg)
 
-[Screenshot of Recipe.html](!/images.recipe.html.jpg)
+[Screenshot of Recipe Page](!/images.recipe.html.jpg)
 
-[Screenshot of Chef.html](!/images.chef.jpg)
+[Screenshot of Chef Page](!/images.chef.jpg)
