@@ -9,4 +9,4 @@
 
 [Screenshot of Chef Page](!/images.chef.jpg)
 
-[Screenshot of Chef Page2](./images/chef.jpg)
+[Screenshot of Chef Page](!/images/chef.jpg)
