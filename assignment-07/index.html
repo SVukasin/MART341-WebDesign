@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title> Using Forms </title>
+    <!--Charset used:-->
+    <meta charset="UTF-8">
+    <!--description of page-->
+    <meta name="description" content>
+    <!-- author information -->
+    <meta name="author" content= "Skylar Vukasin">
+    <!--other elements-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style> body {background-color: #c6f6eb;}</style>
+  </head>
+  <body>
+  <img src="images/Vukasin-Skylar.png" width=100 alt=mountain and sun logo with s j v initials" title="Skylar logo" >
+
+<h2>Tell me what about you and your business!</h2>
+<!-- contact form -->
+<form method="POST" action="index.html">
+  Business Name:
+    <input type="text" name="business-name" id="business-name-input" placeholder="Enter Your Business Name" autofocus />
+      <br>
+  Name:
+    <input type="text" name="name" id="name-input" placeholder="Enter Your Full Name" autofocus />
+      <br>
+  Email:
+    <input type="text" name="email" id="email-address" placeholder="Enter Your Email" autofocus />
+
+<h3>What is your preferred form of contact?</h3>
+  <p>
+  <input type="radio" name="phone-call" id="phone-call" value="Y"> Phone Call
+  <br>
+  <input type="radio" name="text-message" id="text-message" value="Y"> Text Message
+  <br>
+  <input type="radio" name="email" id="email" value="Y"> Email
+</p>
+
+<br>
+
+<h3>What type of services are you looking for?</h3>
+<p> Please Select One</p>
+  <select name=service_type>
+    <option value="web">Web Design</option>
+    <option value="Soc">Social Media Management</option>
+    <option value="logo">Logo Design</option>
+</select>
+
+<h3> Anything Else i should know about your goals/business? </h3>
+  <textarea name="comments" id="additional information about goals or business"> Enter up to 500 characters</textarea>
+<br>
+<br>
+  <input type="submit" name="submit-form" value="Submit Form"/>
+
+<h4> More questions?</h4>
+
+<a href="mailto:skylr.vukasin@umontana.edu"> Email Me! </a>
+
+<p>Or, make an appointment on my <a href="https://www.calendly.com/"> calendar</a>!</p>
+
+
+<h4> Hours of availability</h4>
+<!--table practice -->
+<table>
+  <tbody>
+    <tr>
+      <th>Days & Times</th>
+    </tr>
+    <tr>
+      <td> Monday </td>
+      <td> 5:15 pm - 7:15 pm </td>
+    </tr>
+    <tr>
+      <td> Wednesday </td>
+      <td> 5:15 pm - 7:15 pm </td>
+    </tr>
+    <tr>
+      <td> Friday </td>
+      <td> 4:15 pm - 5:15 pm </td>
+    </tr>
+  </tbody>
+</table>
+
+  </body> 
+
+</html>
