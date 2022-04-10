@@ -1,0 +1,17 @@
+@fontface {
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  src: url('../fonts/ZenKakuGothicAntique-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@fontface {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  src: url('../fonts/ZenKakuGothicAntique-Light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@fontface {
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+src url('../fonts/ZenKakuGothicAntique-Bold.ttf') format('truetype');
+font-weight: 900;
+}

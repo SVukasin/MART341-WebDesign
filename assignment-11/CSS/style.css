@@ -1,0 +1,97 @@
+h1 {
+  color: #0e6988;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+
+body {
+  background-color: #b9e3e9;
+}
+
+
+#title:hover{
+  letter-spacing: .25em;
+  color: #0e6988
+}
+
+.content-paragraph{
+    color: #white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph-2{
+    color: #white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.titleBorder{
+    height: 100px;
+    background-color: #0e6988;
+    color: white;
+  }
+
+  .titleBorder:hover{
+      background-color: #9AA297;
+      color: #white;
+      text-indent: 5em;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  }
+
+  .subtitle{
+      padding-top: 25px;
+      font-size: 50px;
+      margin: auto;
+      padding-bottom: 25px;
+  }
+
+.content-paragraph{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph::first-line{
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height: 40px;
+}
+
+.content-paragraph-2{
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 640px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.page-link{
+    text-decoration: none;
+    color: #0e6988;
+}
+.page-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.page-link:visited{
+    color: #9AA297;
+}
