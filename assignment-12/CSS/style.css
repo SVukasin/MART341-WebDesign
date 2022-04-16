@@ -1,0 +1,197 @@
+h1 {
+  color: #0e6988;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+
+body {
+  background-color: #b9e3e9;
+}
+
+
+#title:hover{
+  letter-spacing: .25em;
+  color: #0e6988
+}
+
+.content-paragraph{
+    color: #white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph-2{
+    color: #white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.titleBorder{
+    height: 100px;
+    background-color: #0e6988;
+    color: white;
+  }
+
+  .titleBorder:hover{
+      background-color: #9AA297;
+      color: #white;
+      text-indent: 5em;
+      font-family: 'Quicksand';
+  }
+
+  .subtitle{
+      padding-top: 25px;
+      font-size: 50px;
+      margin: auto;
+      padding-bottom: 25px;
+  }
+
+.content-paragraph{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph::first-line{
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height: 40px;
+}
+
+.content-paragraph-2{
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 640px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.page-link{
+    text-decoration: none;
+    color: #0e6988;
+}
+.page-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.page-link:visited{
+    color: #9AA297;
+}
+
+#first-bar{
+  margin-top: 2em;
+  padding: 1em;
+}
+
+/*Menu */
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 99%;
+  height: 4em;
+  top: 0px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: right;
+
+}
+
+/* set the menu laout buttons - horizontal, not stacked */
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  background-color: #9AA297;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+
+.menu-item:hover, menu-item:hover a {
+  background-color: #b9e3e9 ;
+  color: #0e6988;
+}
+
+/*links*/
+.menu-item a {
+  color: white;
+  text-decoration: none;
+
+}
+
+/*dropdown*/
+.dropdown {
+  display: inline-block
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: white;
+  background-color: #b9e3e9;
+  z-index: 1;
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+/*styling dropdown*/
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 6em;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: #9AA297;
+
+}
+
+
+#gallery:hover {
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover{
+  border-radius: 1em 1em 0em 0em;
+}
+
+/* site name to top left*/
+
+.site-name {
+  color: #0e6988;
+  float: left;
+  min-width: 6em;
+  padding: 0.5 1em
+  letter-spacing: 0.6em;
+  margin: 1em 0.5em;
+}
