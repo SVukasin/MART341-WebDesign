@@ -1,0 +1,506 @@
+h1 {
+  color: #55704f;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+h2 {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+h3 {
+  color: #c9bea0;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+h4 {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+h5 {
+  color: white;
+}
+
+p{
+  color: #523527;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+button {
+  background-color: #55704f;
+  color: white;
+  border: none;
+  border-radius: .25em .25em .25em .25em;
+  padding: 1.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+  #button:hover {
+    color: #826f60;
+  }
+
+button-2 {
+  background-color: #c9bea0;
+  color: white;
+  border: none;
+  border-radius: .25em .25em .25em .25em;
+  padding: 7px;
+}
+
+body {
+  background-color: #c9bea0;
+}
+
+.button-link{
+  text-decoration: none;
+  color: white;
+}
+
+.button-link:visited{
+    color: #27521d;
+}
+
+
+#title:hover{
+  letter-spacing: .25em;
+  color: #826f60;
+}
+
+.content-paragraph{
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph-2{
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.titleBorder{
+    height: 100px;
+    background-color: #55704f;
+    color: white;
+    min-width: device-width;
+
+  }
+
+  .titleBorder:hover{
+      background-color: #55704f;
+      color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    }
+
+  .subtitle{
+      padding-top: 50px;
+      font-size: 3em;
+      margin: auto;
+      padding-bottom: 25px;
+  }
+
+.content-paragraph{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.content-paragraph::first-line{
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height: 40px;
+}
+
+.content-paragraph-2{
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 640px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.page-link{
+    text-decoration: none;
+    color: #55704f;
+}
+.page-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.page-link:visited{
+    color: #826f60;
+}
+
+.page-link-2{
+    text-decoration: none;
+    color: #c9bea0;
+}
+.page-link-2:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.page-link-2:visited{
+    color: #27521d;
+}
+
+#first-bar{
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+
+}
+
+/*Menu */
+
+@media only screen and (max-width: 768px) {}
+  /*desktop*/
+
+header {
+  position: fixed;
+  background-color: #55704f;
+  width: 99%;
+  height: 20em;
+  top: 0px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: right;
+  z-index: 50;
+}
+
+/* set the menu laout buttons - horizontal, not stacked */
+.menu-item {
+  display: inline-block;
+  margin: 3em .2em;
+  background-color: #9AA297;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /*mobile*/
+}
+  header {
+    position: fixed;
+    background-color: #55704f;
+    width: 99%;
+    height: 3em;
+    top: 0px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-align: center;
+    z-index: auto;
+  }
+
+  /* set the menu laout buttons - horizontal, not stacked */
+  .menu-item {
+    display: inline-block;
+    margin: 3em .2em;
+    background-color: #9AA297;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+  }
+}
+
+.menu-item:hover, menu-item:hover a {
+  background-color: #c9bea0;
+  color: #c9bea0;
+}
+
+/*links*/
+.menu-item a {
+  color: white;
+  text-decoration: none;
+
+}
+
+/*dropdown*/
+.dropdown {
+  display: inline-block
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: white;
+  background-color: #c9bea0;
+  z-index: 1;
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+/*styling dropdown*/
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 6em;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: #9AA297;
+
+}
+
+
+#gallery:hover {
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover{
+  border-radius: 1em 1em 0em 0em;
+}
+
+/* site name to top left*/
+
+.site-name {
+  color: white;
+  float: center;
+  min-width: 6em;
+  padding: 0.0 0em
+  letter-spacing: 0.6em;
+  margin: 1em 0.5em;
+  opacity: 40%;
+}
+
+
+
+/* HERO IMAGE HOMEPAGE*/
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('file:///C:/Users/14063/Downloads/pexels-sagui-andrea-618833.jpg');
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* OFFERINGS */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* ABOUT US CONTAINER */
+
+.container {
+  background-color: #55704f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight:100;
+  border-radius: 1em 1em 1em 1em;
+
+}
+
+#container a {
+  color: #826f60;
+}
+
+img {
+  width: 25em;
+  border-radius: 1em 1em 1em 1em;
+
+}
+
+.image {
+  flex-basis: 40%;
+  border-radius: 1em 1em 1em 1em;
+
+}
+
+.text {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/* REVIEWS */
+
+.container-2 {
+  background-color: #826f60;
+  color: white;
+  display: flex;
+  align-items: justify;
+  justify-content: center
+  padding: 10px;
+}
+
+.text-2 {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/* DOWNLOAD APP */
+
+.hero-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5
+    )),
+    url('file:///C:/Users/14063/Downloads/pexels-daria-shevtsova-1440722.jpg');
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-text-2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.hero-image-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('file:///C:/Users/14063/Downloads/pexels-eberhard-grossgasteiger-1183021.jpg');
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-text-3 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+/* EVENTS PAGE  */
+
+.container-3 {
+  background-color: #826f60;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  padding: 10px;
+}
+
+.container-4 {
+  background-color: #55704f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight:100;
+  border-radius: 1em 1em 1em 1em;
+  height: 5em;
+}
+
+#container a {
+  color: #826f60;
+}
+
+img {
+  width: 40em;
+}
+
+.image {
+  flex-basis: 0%;
+  border-radius: 1em 1em 1em 1em;
+}
+
+.text {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/* HERO IMAGE LINKS*/
+body, html {
+    height: 100%;
+}
+
+.hero-image-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/rivers.jpg);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text-links {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+/*FOOTER*/
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: #55704f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
