@@ -25,7 +25,7 @@ h5 {
 }
 
 p{
-  color: #523527;
+  color: #white;
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
@@ -292,7 +292,7 @@ body, html {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/mountains.jpg);
+    url('file:///C:/Users/14063/Downloads/pexels-sagui-andrea-618833.jpg');
     height: 50%;
     background-position: center;
     background-size: cover;
@@ -378,12 +378,15 @@ img {
 /* DOWNLOAD APP */
 
 .hero-image-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/app2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5
+    )),
+    url('file:///C:/Users/14063/Downloads/pexels-daria-shevtsova-1440722.jpg');
     height: 75%;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .hero-text-2 {
   text-align: center;
@@ -398,11 +401,13 @@ img {
 
 .hero-image-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/gif-backup.png);
-    height: 65%;
+    url('file:///C:/Users/14063/Downloads/pexels-eberhard-grossgasteiger-1183021.jpg');
+    height: 45%;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .hero-text-3 {
   text-align: center;
@@ -466,7 +471,7 @@ body, html {
 
 .hero-image-links {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/rivers.jpg);
+    url('file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/rivers.jpg');
     height: 50%;
     background-position: center;
     background-size: cover;
