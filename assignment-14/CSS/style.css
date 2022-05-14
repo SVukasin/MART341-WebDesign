@@ -292,8 +292,8 @@ body, html {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('file:///C:/Users/14063/Downloads/pexels-sagui-andrea-618833.jpg');
-    height: 50%;
+    url('../mountains.jpg');
+    height: 15%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -380,8 +380,8 @@ img {
 .hero-image-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5
     )),
-    url('file:///C:/Users/14063/Downloads/pexels-daria-shevtsova-1440722.jpg');
-    height: 75%;
+    url('/app-2.png');
+    height: 45%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -401,8 +401,8 @@ img {
 
 .hero-image-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('file:///C:/Users/14063/Downloads/pexels-eberhard-grossgasteiger-1183021.jpg');
-    height: 45%;
+    url('/mountain-river.jpg');
+    height: 15%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -470,9 +470,9 @@ body, html {
 }
 
 .hero-image-links {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('file:///C:/Users/14063/OneDrive/Documents/Introduction%20to%20Web%20Design/assignment-14/images/rivers.jpg');
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('/rivers.jpg');
+    height: 25%;
     background-position: center;
     background-size: cover;
     position: relative;
